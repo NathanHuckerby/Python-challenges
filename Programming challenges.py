@@ -32,4 +32,12 @@ else:
 sumNumbers = number_1 + number_2
 print("The sum of the two numbers is: ",sumNumbers)
 
+# Convert Age to Days
+age = int(input("Please enter your age: "))
+if age <= 0:
+    print("Please enter a valid age")
+else:
+    ageDays = age*365.24
+    print("Your age in days is: ",ageDays)
+    
 
